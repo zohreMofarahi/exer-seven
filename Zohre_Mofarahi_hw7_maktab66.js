@@ -29,6 +29,18 @@ class Media {
 }
 
 class Book extends Media {
-    constructor ()
-    
-}
+    constructor (nameBook="", contentBook ="", authorBook=""  ) {
+    super (nameBook,contentBook,authorBook)
+}}
+
+const cleancode= new Book  ("Clean Code: A Handbook of Agile Software Craftsmanship","programming","Robert C. Martin")
+console.log (JSON.stringify(cleancode))
+
+
+class Film extends Media {
+    constructor (namefilm="", contentfilm ="", authorfilm=""  ) {
+    super (namefilm,contentfilm,authorfilm)
+}}
+
+const TheSocialNetwork= new Film  ("The Social Network","FACEBoOK"," David Andrew Leo Fincher")
+console.log (JSON.stringify(TheSocialNetwork))
