@@ -1,0 +1,340 @@
+body{
+    background-color: #131313;
+}
+
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+}
+
+.firstBox {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20%;
+    width: 60%;
+}
+
+.person {
+    margin-top: 35%;
+    margin-right:40px;
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 50%;
+   
+ 
+}
+
+.hello {
+    
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     align-items: right;
+    font-family: Aref Ruqaa, serif;
+    font-size: 2rem;
+    height:150px;
+  
+}
+
+.emoji {
+
+    width: 110px;
+    padding-top: 60px;
+      
+}
+
+
+.titletext {
+color: white;
+font-size: x-large;
+
+
+}
+ 
+.hr {
+   display: block;
+    width: 80%;
+    height: 3px;
+  background-image:linear-gradient(to right, orange,purple);
+}
+.secondBox {
+    margin-top: 18%;
+    color: white;
+   text-align: center;
+   margin-bottom: 5%;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+.thirdBox {
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 3%;
+  
+   
+}
+
+
+.thirdBox h1 {
+font-size: 20px;
+background: -webkit-linear-gradient(right,rgb(134, 5, 106),rgb(255, 72, 0));
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+font-family: Aref Ruqaa, serif;}
+
+.one {
+    align-items: center;
+      width: 20%;
+}
+
+
+
+.icon1{
+    width:25%;
+    height:25%;
+    
+   
+}
+
+.two {
+   
+    width: 20%;
+}
+
+
+.icon2{
+    width:20%;
+    height:30%;
+    
+   
+
+}
+
+.three {
+
+    width: 20%;
+}
+
+
+.icon3 {
+    width:22%;
+    height:22%;
+  
+ 
+
+}
+
+.hr2 {
+   display: none;
+   width: 80%;
+   height: 3px;
+  background-image:linear-gradient(to right, orange,purple);
+
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    .firstBox {
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+       
+    }
+
+    .person {
+        margin-top: 35%;
+        width: 15vh;
+        height: 15vh;
+        object-fit: cover;
+        border-radius: 50%;
+       
+     
+    }
+
+  .hello {
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    font-family: Aref Ruqaa, serif;
+    font-size: 1.3rem;
+    height:85px;
+    
+  
+} 
+
+.emoji {
+    width:80px;
+    height: 45px;
+    padding-top: 42px;
+  
+}
+
+
+.thirdBox {
+    margin-top: 10%;
+    color: white;
+    width: 600px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    margin-bottom: 3%;
+    margin-left: 45px;
+/* border: red 2px solid; */
+     }
+
+     .one {
+        align-items: center;
+          width: 300px;
+    }
+
+    .icon1{
+        width:15%;
+        height:15%;
+        
+       
+    }
+
+    .two {
+   
+        width: 300px;
+    }
+
+    .icon2{
+        width:10%;
+        height:15;
+                 
+    }
+
+    .three {
+        margin-top: 5%;
+        width: 300px;
+    }
+
+    .icon3 {
+        width:10%;
+        height:15%;
+      
+     
+    
+    }
+    .hr {
+        display: block;
+         width: 100%;
+         height: 1px;
+       background-image:linear-gradient(to right, orange,purple);
+     }
+
+     .hr2 {
+        display: block;
+        width: 100%;
+        height: 1px;
+       background-image:linear-gradient(to right, orange,purple);
+       margin-bottom: 10px;
+     
+     }
+
+     .menu {
+       
+        display: block;
+        position: sticky;
+        top:0;
+        margin-left: 95%;
+      
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    
+    .firstBox {
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+       
+       
+    }
+    .person {
+        margin-top: 35%;
+        width: 20vh;
+        height: 20vh;
+        object-fit: cover;
+        border-radius: 50%;
+       
+     
+    }
+
+  .hello {
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Aref Ruqaa, serif;
+    font-size: 1rem;
+    height:85px;
+    margin-left: 30%;
+    
+  
+} 
+
+.emoji {
+    width:80px;
+    height: 45px;
+    padding-top: 28px;
+  
+}
+.text {
+    text-align: center;
+
+}
+ 
+    .menu {
+       
+        display:block;
+        position: static;
+      
+    }
+    .thirdBox {
+        margin-top: 10%;
+        color: white;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        
+         }
+    
+}
+
+
